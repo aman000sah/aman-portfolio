@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, ArrowRight } from "lucide-react"
+import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, ArrowRight, Phone } from "lucide-react"
 
 export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -98,7 +98,7 @@ export default function Portfolio() {
         </div>
 
         <div className="max-w-7xl mx-auto w-full relative z-10">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             {/* Left: Text Content */}
             <div className="space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
               <div className="space-y-6">
@@ -136,16 +136,19 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Right: Profile Image */}
-            <div className="relative hidden md:flex items-center justify-center animate-in fade-in slide-in-from-right-8 duration-1000">
-              <div className="relative w-80 h-80">
+            <div className="relative flex items-center justify-center animate-in fade-in slide-in-from-right-8 duration-1000">
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80">
                 {/* Animated border */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary rounded-3xl opacity-20 blur-2xl animate-pulse"></div>
                 <div className="absolute inset-0 rounded-3xl border-2 border-gradient-to-br from-primary to-accent"></div>
 
                 {/* Profile Image */}
                 <div className="absolute inset-4 rounded-2xl overflow-hidden bg-gradient-to-br from-card to-background">
-                  <img src="/professional-handsome-portrait-photo.jpg" alt="Aman Kumar Sah" className="w-full h-full object-cover" />
+                  <img
+                    src="/professional-handsome-portrait-photo.jpg"
+                    alt="Aman Kumar Sah"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -168,7 +171,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-bold mb-20">About Me</h2>
 
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
             {/* Left: About Text */}
             <div className="space-y-8">
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -540,5 +543,3 @@ export default function Portfolio() {
     </div>
   )
 }
-
-import { Phone } from "lucide-react"
