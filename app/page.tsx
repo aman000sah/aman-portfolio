@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, ArrowRight } from "lucide-react"
+import { Menu, X, Github, Linkedin, Mail, ExternalLink, ChevronDown, ArrowRight, Phone } from "lucide-react"
 
 export default function Portfolio() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -98,38 +98,40 @@ export default function Portfolio() {
         </div>
 
         <div className="max-w-7xl mx-auto w-full relative z-10">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 md:gap-12 items-center">
             {/* Left: Text Content */}
-            <div className="space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
-              <div className="space-y-6">
-                <p className="text-primary font-semibold tracking-widest uppercase text-sm">Welcome to my portfolio</p>
-                <h1 className="text-6xl md:text-7xl font-bold leading-tight">
+            <div className="space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
+              <div className="space-y-4 sm:space-y-6">
+                <p className="text-primary font-semibold tracking-widest uppercase text-xs sm:text-sm">
+                  Welcome to my portfolio
+                </p>
+                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
                   Hey, I'm
                   <br />
                   <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
                     Aman Kumar Sah
                   </span>
                 </h1>
-                <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
+                <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
                   Software Engineer • Data Science Enthusiast • AI/ML Explorer
                 </p>
-                <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
+                <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
                   3rd year Computer Science student at IIMS College (Taylor's University) with a passion for building
                   intelligent solutions and teaching the next generation of engineers.
                 </p>
               </div>
 
               {/* CTA Buttons */}
-              <div className="flex gap-4 pt-4 flex-wrap">
+              <div className="flex gap-3 sm:gap-4 pt-2 sm:pt-4 flex-wrap">
                 <button
                   onClick={() => scrollToSection("projects")}
-                  className="px-8 py-3 bg-primary text-background rounded-lg font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/30 flex items-center gap-2 group"
+                  className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base bg-primary text-background rounded-lg font-semibold hover:bg-primary/90 transition-all hover:shadow-lg hover:shadow-primary/30 flex items-center gap-2 group"
                 >
                   View My Work <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                 </button>
                 <button
                   onClick={() => scrollToSection("contact")}
-                  className="px-8 py-3 border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-all"
+                  className="px-6 sm:px-8 py-2 sm:py-3 text-sm sm:text-base border-2 border-accent text-accent rounded-lg font-semibold hover:bg-accent/10 transition-all"
                 >
                   Contact Me
                 </button>
@@ -137,15 +139,19 @@ export default function Portfolio() {
             </div>
 
             {/* Right: Profile Image */}
-            <div className="relative hidden md:flex items-center justify-center animate-in fade-in slide-in-from-right-8 duration-1000">
-              <div className="relative w-80 h-80">
+            <div className="relative flex items-center justify-center animate-in fade-in slide-in-from-right-8 duration-1000">
+              <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80">
                 {/* Animated border */}
                 <div className="absolute inset-0 bg-gradient-to-br from-primary via-accent to-primary rounded-3xl opacity-20 blur-2xl animate-pulse"></div>
                 <div className="absolute inset-0 rounded-3xl border-2 border-gradient-to-br from-primary to-accent"></div>
 
                 {/* Profile Image */}
                 <div className="absolute inset-4 rounded-2xl overflow-hidden bg-gradient-to-br from-card to-background">
-                  <img src="/professional-handsome-portrait-photo.jpg" alt="Aman Kumar Sah" className="w-full h-full object-cover" />
+                  <img
+                    src="/professional-handsome-portrait-photo.jpg"
+                    alt="Aman Kumar Sah"
+                    className="w-full h-full object-cover"
+                  />
                 </div>
               </div>
             </div>
@@ -168,7 +174,7 @@ export default function Portfolio() {
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-bold mb-20">About Me</h2>
 
-          <div className="grid md:grid-cols-2 gap-16 items-center">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center">
             {/* Left: About Text */}
             <div className="space-y-8">
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -540,5 +546,3 @@ export default function Portfolio() {
     </div>
   )
 }
-
-import { Phone } from "lucide-react"
