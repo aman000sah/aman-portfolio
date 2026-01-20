@@ -539,7 +539,7 @@ export default function Portfolio() {
                 <Linkedin size={28} />
               </a>
             </div>
-            <p className="text-muted-foreground">© 2025 Aman Kumar Sah. All rights reserved.</p>
+            <p className="text-muted-foreground">© 2026 Aman Kumar Sah. All rights reserved.</p>
           </div>
         </div>
       </section>
