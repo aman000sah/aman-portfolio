@@ -113,7 +113,7 @@ export default function Portfolio() {
                   </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                  Software Engineer • Data Science Enthusiast • AI/ML Explorer
+                  Computer Science Undergraduate • Specializing in Data Science & AI/ML
                 </p>
                 <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
                   3rd year Computer Science student at IIMS College (Taylor's University) with a passion for building
