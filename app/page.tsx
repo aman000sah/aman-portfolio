@@ -103,7 +103,7 @@ export default function Portfolio() {
             <div className="space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-primary font-semibold tracking-widest uppercase text-xs sm:text-sm">
-                  Welcome to my portfolio
+                  Aman's Portfolio
                 </p>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
                   Hey, I'm
