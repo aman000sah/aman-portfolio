@@ -105,13 +105,13 @@ export default function Portfolio() {
                 <p className="text-primary font-semibold tracking-widest uppercase text-xs sm:text-sm">
                   Aman Kumar Sah 
                 </p>
-                <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  Computer Science Undergraduate
-                  <br />
-                  <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-                    Specializing in Data Science & AI/ML
-                  </span>
-                </h1>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold leading-tight">
+  Computer Science Undergraduate
+  <br />
+  <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+    Specializing in Data Science & AI/ML
+  </span>
+</h1>
                 <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
                   Building projects that blend software engineering with intelligent systems to solve real-world problems.
                 </p>
