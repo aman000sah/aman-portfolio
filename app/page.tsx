@@ -103,21 +103,20 @@ export default function Portfolio() {
             <div className="space-y-6 sm:space-y-8 animate-in fade-in slide-in-from-left-8 duration-1000">
               <div className="space-y-4 sm:space-y-6">
                 <p className="text-primary font-semibold tracking-widest uppercase text-xs sm:text-sm">
-                  Aman's Portfolio
+                  Aman Kumar Sah 
                 </p>
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                  Hey, I'm
+                  Computer Science Undergraduate
                   <br />
                   <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
-                    Aman Kumar Sah
+                    Specializing in Data Science & AI/ML
                   </span>
                 </h1>
                 <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                  Computer Science Undergraduate • Specializing in Data Science & AI/ML
+                  Building projects that blend software engineering with intelligent systems to solve real-world problems.
                 </p>
                 <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
-                  3rd year Computer Science student at IIMS College (Taylor's University) with a passion for building
-                  intelligent solutions and teaching the next generation of engineers.
+                  Computer Science undergraduate actively building real-world projects & Educator at School where i teach and lead the IT department.
                 </p>
               </div>
 
