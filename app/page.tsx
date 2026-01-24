@@ -112,10 +112,10 @@ export default function Portfolio() {
                     Specializing in Data Science & AI/ML
                   </span>
                 </h1>
-                <p className="text-xs sm:text-sm md:text-base text-muted-foreground leading-relaxed max-w-xl">
+                <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
                   Building projects that blend software engineering with intelligent systems to solve real-world problems.
                 </p>
-                <p className="text-xs sm:text-xs md:text-sm text-muted-foreground leading-relaxed max-w-xl">
+                <p className="text-sm sm:text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
                   Computer Science undergraduate actively building real-world projects & Educator at School where i teach and lead the IT department.
                 </p>
               </div>
